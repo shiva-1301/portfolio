@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# local env / editor
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# deploy tooling
+.vercel/
+.netlify/
+
+# source inputs kept out of the repo (the served copy lives in public/resume.pdf)
+referencee/
+reference/
+resume.txt
+*.pdf
+!public/resume.pdf
